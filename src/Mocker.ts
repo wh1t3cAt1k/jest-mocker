@@ -46,6 +46,10 @@ export type AllButOneFunctionReplacedWithMocks<
         : TObject[TKey]
 };
 
+/**
+ * The mocker helper class. Make it an available global in your tests 
+ * to leverage its enormous and beautiful functionality.
+ */
 export class Mocker {
     public mockAllFunctionsInObject = <TObject>(
         object: TObject
