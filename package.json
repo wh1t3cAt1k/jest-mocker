@@ -1,5 +1,5 @@
 {
-    "name": "",
+    "name": "jest-mocker",
     "files": [
         "dist/**/*"
     ],
@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/wh1t3cAt1k/jest-mocker"
     },
     "license": "MIT",
     "author": {
@@ -22,12 +22,12 @@
     },
     "devDependencies": {
         "@types/jest": "^24.0.15",
-        "jest": "^24.8.0",
-        "ts-jest": "^24.0.2",
         "tslint": "^5.18.0",
         "tslint-config-clean-code": "^4.0.5",
         "typescript": "^3.5.2"
     },
-    "dependencies": {},
+    "dependencies": {
+        "jest": "^24.8.0"
+    },
     "version": "0.1.0"
 }
