@@ -28,7 +28,6 @@
         "tslint-config-clean-code": "^4.0.5",
         "typescript": "^3.5.2"
     },
-    "dependencies": {
-    },
+    "dependencies": {},
     "version": "0.1.0"
 }
